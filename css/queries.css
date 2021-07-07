@@ -5,6 +5,12 @@
   }
 }
 
+@media (max-width: 818px) {
+  .home .content {
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   #menu {
     display: block;
@@ -51,5 +57,20 @@
 
   header .navbar.nav-toggle {
     left: 0;
+  }
+
+  .home .content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  section {
+    padding: 0 3%;
+    padding-top: 9rem;
   }
 }
