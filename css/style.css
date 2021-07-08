@@ -78,6 +78,15 @@ section {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
+.heading {
+  font-size: 3rem;
+  color: #666;
+}
+
+.heading span {
+  color: var(--red);
+}
+
 header {
   width: 100%;
   background: #fff;
@@ -164,4 +173,90 @@ header .navbar ul li a:hover {
   color: #999;
   font-size: 2rem;
   padding: 1rem 0;
+}
+
+.protect .heading {
+  text-align: center;
+  padding: 1rem;
+}
+
+.protect .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.protect .box-container .box {
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;
+  width: 34rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.protect .box-container .box img {
+  height: 17rem;
+  width: 17rem;
+}
+
+.protect .box-container .box h3 {
+  font-size: 2.5rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.protect .box-container .box p {
+  font-size: 1.4rem;
+  color: #999;
+  padding: 0.5rem 0;
+}
+
+.protect .box-container .box:hover {
+  transform: translateY(-1rem);
+}
+
+.symtoms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.symtoms .content {
+  flex: 1 1 40rem;
+}
+
+.symtoms .image {
+  flex: 1 1 40rem;
+}
+
+.symtoms .image img {
+  width: 100%;
+}
+
+.symtoms .content p {
+  font-size: 1.5rem;
+  color: #999;
+  padding: 1rem 0;
+}
+
+.symtoms .content ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.symtoms .content ul .two {
+  padding-left: 4.5rem;
+}
+
+.symtoms .content ul li {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  color: #666;
+  padding: 0.5rem 0;
 }
