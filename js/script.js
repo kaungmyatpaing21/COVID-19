@@ -1,9 +1,13 @@
+// toggle menu
+
 $(document).ready(function () {
   $("#menu").click(function () {
     $(this).toggleClass("fa-times");
     $(".navbar").toggleClass("nav-toggle");
   });
 });
+
+// scroll top
 
 $(window).on("scroll load", function () {
   $("#menu").removeClass("fa-times");
@@ -15,7 +19,7 @@ $(window).on("scroll load", function () {
     $(".scroll-top").hide();
   }
 
-  //scroll-spy
+  // scroll-spy
 
   $("section").each(function () {
     let height = $(this).height();
