@@ -62,6 +62,10 @@
   .home .content {
     text-align: center;
   }
+
+  .prevent .row:last-child {
+    flex-flow: column-reverse;
+  }
 }
 
 @media (max-width: 500px) {
